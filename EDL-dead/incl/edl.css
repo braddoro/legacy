@@ -1,0 +1,183 @@
+.top {
+	top: 10px;
+	left: 10px;
+	background-color: Silver;
+	border: 1px groove;
+	color: black;
+	font-size : 12px;
+	padding: 5px;
+	font-family: "MS Sans Serif", Geneva, sans-serif;
+	z-index: 2;
+	width: 99%;
+}
+
+.toplinks1 {
+	background-color: Silver;
+	color: #1E90FF;
+	font-size : 14px;
+	text-decoration : none;
+	font-weight : bold;
+	padding: 2px 2px 2px 2px;
+}
+
+.onright {
+	direction: rtl;
+	display: block;
+	z-index: 1;
+}	
+
+.main {
+	left: 10px;
+	background-color: transparent;
+	border: 0px none;
+	color: black;
+	font-size : 12px;
+	padding: 5px;
+	font-family: "MS Sans Serif", Geneva, sans-serif;
+}
+
+.body {
+	background-color: #F5F5F5;
+}
+
+.box1 {
+	background-color: #ECECEC;
+	width: 100%;
+	display: block;
+	padding: 5px;
+}
+
+.box2 {
+	background-color: #FDFDFD;
+	width: 100%;
+	display: block;
+	padding: 5px;
+}
+
+.table1 {
+	border-collapse: collapse;
+	font-size : 10px;
+	background : #DCDCDC;
+}
+
+.header {
+	background-color : #1E90FF;
+	color : white;
+	text-decoration : none;
+	vertical-align : text-bottom;
+	font-size : 10px;
+	font-weight: bold;
+}
+
+.sideheader {
+	background-color : #1E90FF;
+	color : white;
+	text-decoration : none;
+	vertical-align : middle;
+	font-size : 10px;
+	font-weight: bold;
+}
+
+.formright {
+	background-color : #D3D3D3;
+	color : black;
+	text-decoration : none;
+	vertical-align : top;
+	font-size : 10px;
+}
+
+.even {
+	background-color : #DCDCDC;
+	color : black;
+	text-decoration : none;
+	vertical-align : top;
+	font-size : 10px;
+}
+
+.odd {
+	background-color : #ECECEC;
+	color : black;
+	text-decoration : none;
+	vertical-align : top;
+	font-size : 10px;
+}
+
+.oddwarn {
+	background-color : #ECECEC;
+	color : red;
+	text-decoration : none;
+	font-weight : bold;
+	vertical-align : top;
+	font-size : 10px;
+}
+
+.evenwarn {
+	background-color : #DCDCDC;
+	color : red;
+	text-decoration : none;
+	font-weight : bold;
+	vertical-align : top;
+	font-size : 10px;
+}
+
+td {
+	padding: 2px;
+}
+
+img {
+	border: 0px;
+}
+
+.title1 {
+	font-size: 20px;
+	color: #1E90FF;
+	font-family: "Arial Black";
+}
+
+.title2 {
+	font-size: 16px;
+	color: #1E90FF;
+	font-family: "Arial Black";
+}
+
+.title3 {
+	font-size: 12px;
+	color: #1E90FF;
+	font-family: "Arial Black";
+}
+
+.title4 {
+	font-size: 8px;
+	color: #1E90FF;
+	font-family: "Arial Black";
+}
+
+.warnred {
+	color : red;
+	text-decoration : none;
+	font-size : 12px;
+	font-weight: bold;
+	font-family: "MS Sans Serif", Geneva, sans-serif;
+}
+
+.tinywhite {
+	color : white;
+	text-decoration : none;
+	font-size : 12px;
+	font-weight: bold;
+	font-family: "MS Sans Serif", Geneva, sans-serif;
+}
+
+.tinyblue {
+	color : #1E90FF;
+	text-decoration : none;
+	vertical-align : text-bottom;
+	font-size : 10px;
+	font-weight: bold;
+}
+
+.plain {
+	text-decoration : none;
+	font-size : 12px;
+	font-family: "MS Sans Serif", Geneva, sans-serif;	
+}

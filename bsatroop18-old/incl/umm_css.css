@@ -1,0 +1,96 @@
+/* CSS for the troop website */
+/* Regular Styles, for the body */
+
+body {
+  margin:0;
+  padding:0;
+  font: 12px verdana, sans-serif;
+  color:#000;
+  line-height: 14px;
+}
+
+.nobreak {white-space:nowrap;}
+
+h1 {
+  font: bold 28px helvetica, arial, sans-serif;
+  color:#000;
+  margin:3px 0 5px 0;
+  padding-left:3px;
+}
+
+
+
+/* News page things and stuff */
+.newsList {
+  margin:10px 5px 5px 5px;
+}
+
+.newsList .post {
+  margin: 7px 0 20px 0;
+}
+
+.newsList h2, .newsList h3 {
+  margin:0;
+  padding:0;
+}
+
+.newsList .title {
+  padding:0;
+  background: url(/troop18/resources/newsBlock_bg.gif) no-repeat bottom right;
+}
+/* we put the corner image in another layer (sneaky) */
+.newsList .title div {
+  padding:0 0 3px 15px;
+  background: url(/troop18/resources/newsBlock_corner.gif) no-repeat bottom left;
+}
+
+.newsList .title .name {
+  color: #735823;
+  font: bold 25px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration:none;
+}
+
+.newsList .title .author {
+  color:#AE8536;
+  font: bold 22px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding:0 0 0 7px;
+}
+
+.newsList .title .date {
+  color:#CEA860;
+  font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding:0 0 0 7px;
+}
+
+.newsList .title .date A{ /* Category Link */
+  color:#C4963E;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+.newsList .content {
+  margin:0;
+  padding:5px;
+  border-left: 1px solid #EADABA;
+  border-right: 1px solid #EADABA;
+  line-height:16px;
+  background:#FDFCF9;
+}
+
+.newsList h3 { /* Comments */
+  color:#AE8536;
+  font: 14px Verdana, Helvetica, sans-serif;
+  margin:0;
+  padding:3px 0 10px 5px;
+}
+
+.newsList #bottom {
+  background: url(/troop18/resources/newsBlock_bg_b.gif) no-repeat bottom right;
+  margin:0 0 10px 0;
+  height:13px;
+}
+
+.newsList #bottom IMG {
+  margin:0;
+  float:left;
+}

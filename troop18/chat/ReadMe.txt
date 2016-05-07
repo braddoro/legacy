@@ -1,0 +1,1 @@
+To use the chat sample, copy the chat.html, chat.swf and dochat.asp files to a web server that supports .asp pages. Microsoft Internet Information Server on Windows NT Server or Microsoft Personal Web Server on Windows NT Workstation, Windows 95/98.

@@ -1,0 +1,92 @@
+
+a:link       {
+		COLOR: Olive;
+		text-decoration: none;
+} 
+a:visited  {
+	color: Gray;
+	text-decoration: none;
+}   
+a:active   {
+	color: red;
+	text-decoration: none;
+}    
+a:hover    {
+	text-decoration: underline;
+	color: gold;
+}
+
+BODY
+{
+	COLOR: teal;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+BODY H1
+{
+	COLOR: Black;
+	font-size : large;
+		display : inline;
+}
+
+BODY H2
+{
+	COLOR: Navy;
+	font-size : large;
+		display : inline;
+}
+
+BODY H3
+{
+	COLOR: Gold;
+	font-size : large;
+		display : inline;
+}
+
+BODY H4
+{
+	COLOR: Gold;
+	font-size : small;
+	display : inline;
+}
+
+BODY H5
+{
+	COLOR: Navy;
+	font-size : x-small;
+	display : inline;
+	font-weight : lighter;
+}
+
+BODY H6
+{
+	COLOR: silver;
+	font-size : xx-small;
+		display : inline;
+}
+
+
+TH
+{
+	BACKGROUND-COLOR: silver;
+	font-family : Arial, Helvetica, sans-serif;
+	COLOR: teal;
+	text-align : left;
+	vertical-align : middle;
+	font-weight : normal;
+}
+
+TD
+{
+	BACKGROUND-COLOR: White;
+	COLOR: teal;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+
+}
+
+.invisible
+{
+	COLOR: white;
+	font-size : xx-small;
+	display : inline;
+}

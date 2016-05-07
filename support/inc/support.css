@@ -1,0 +1,349 @@
+/*
+Links
+
+A:active
+{
+    COLOR: white;
+    TEXT-DECORATION: underline
+}
+A:link
+{
+    COLOR: #550000;
+}
+A:visited
+{
+	COLOR: #550000;
+}
+
+.even {
+	background: #E5E5E5;
+	color: Black;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 10px;
+}
+
+
+.odd {
+	background: #CECECE;
+	color: Black;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 10px;
+}
+#FAFAD2
+
+A:hover
+{
+	COLOR: white;
+	background-color : Black;
+}
+
+*/
+A
+{
+	font-size: 12px;
+	TEXT-DECORATION: none
+}
+
+/* Main layout. 
+	background-image: url(../images/1.png);
+	background-repeat: repeat-y;
+	background-color: #006699;
+	background-color: #006699;
+	#006699
+	#466587
+	background-color: #466587;  - the original blue background
+		background-color: #FDFDFD; - the light grey background
+		
+	border: 2px outset #993300;
+		border: 2px outset #993300;
+
+		
+old body #C1C0AA; <-- nice
+*/
+
+.even {
+	background: #E5E5E5;
+	color: Black;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 10px;
+}
+
+
+.body {
+	background-color : #466587;
+	background-image: url(../0.png);
+}
+
+.topbox {
+	top: 10px;
+	left: 10px;
+	height: 40px;
+	position : absolute;
+	background-color: #DCDCDC;
+	padding: 5px 5px 3px 5px;
+	border: thin solid Black;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 2px;
+}
+
+.mainbox {
+	top: 70px;
+	left: 10px;
+	position : absolute;
+	background-color: #DCDCDC;
+	padding: 5px 5px 3px 5px;
+	border: thin solid Black;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+/* Tags within the div tags. 
+#A9A9A9
+*/
+.header {
+	background-color: #57799a;
+	color: white;
+	padding: 5px 5px 3px 5px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 1px;
+}
+
+/* Headings. */
+.titleA{
+	background-color: #DCDCDC;
+	font-family: 	Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline;
+	margin-right: 2px;
+}
+
+.title2 {
+	background-color: #DCDCDC;
+	color: maroon; 
+	font-family: 	Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline;
+	padding:5px;
+	margin-right: 2px;
+}
+
+.title3 {
+	background-color: #DCDCDC;
+	color: Yellow;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline;
+	padding:5px;
+	margin-right: 2px;
+}
+
+.banner1 {
+	background-color: #DCDCDC;
+	color: Maroon;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	padding : 1px 1px 1px 1px;
+	margin: 1px 1px 2px 1px;
+}
+
+.banner2 {
+	background-color: #DCDCDC;
+	color: black;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px 1px 0px 1px;
+	display: inline;
+	padding : 0px 1px 0px 1px;
+}
+
+.banner3 {
+	background-color: #DCDCDC;
+	color: maroon;
+	text-decoration: underline;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding : 1px 1px 1px 1px;
+	margin: 1px 1px 2px 1px;
+}
+
+/* Table tags. 
+
+.table {
+	border-collapse: collapse;
+	width: 100%;
+	padding: 1px 1px 1px 1px;
+}
+
+*/
+.table {
+	background: #E1E1E1;
+	color: Black;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 0px;
+	border-collapse: collapse;
+	border: thin solid;
+}
+
+.table td{
+	padding: 5px 5px 5px 5px;
+}
+
+.rows {
+	background-color: silver;
+	color: black;
+	padding: 2px 5px 2px 5px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	vertical-align : top;
+}
+
+.tablebox{
+	border-collapse: collapse;
+	border: 1px solid Black;
+	width: 100%;
+	padding: 1px 1px 1px 1px;
+}
+
+.tableboxside{
+	border-collapse: collapse;
+	border: 1px solid Black;
+	width: 140px;
+	padding: 1px 1px 1px 1px;
+}
+
+.tableboxtight{
+	border-collapse: collapse;
+	border: 1px solid Black;
+}
+
+.data {
+	background-color: #F5F5F5;
+	color: black;
+	padding: 2px 5px 2px 5px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.data2 {
+	background-color: #F5F5F5;
+	color: black;
+	padding: 2px 5px 2px 5px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.offset {
+	background-color: silver;
+	color: black;
+	padding: 2px 5px 2px 5px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.offset2{
+	background-color: Silver;
+	color: black;
+	padding: 2px 5px 2px 5px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+.offsetbox {
+	background-color: Silver;
+	color: black;
+	border: thin solid Black;
+	padding: 2px 5px 2px 5px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.text1 {
+	background-color: silver;
+	width: 100%;
+	color: maroon; 
+	font-family: 	Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	display: inline;
+	padding: 2px;
+}
+
+.text2 {
+	background-color: #DCDCDC;
+	width: 100%;
+	color: maroon; 
+	font-family: 	Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	display: inline;
+	padding: 2px;
+}
+
+pre {
+	font-family: 	Verdana, Geneva, Arial, Helvetica, sans-serif;	
+	display: inline;
+	font-size: 12px;
+}
+/*
+Small font for password
+*/
+.passinput {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: normal;
+	TEXT-INDENT: 2px;
+	font-size: 10px;
+	background-color: silver;
+	display: inline;
+}
+
+.tiny {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: black;
+	FONT-WEIGHT: bold;
+	display: inline;
+}
+
+.tinyred {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: red;
+	FONT-WEIGHT: normal;
+	display: inline;
+}
+
+img {
+	border: 0px;
+}
+
+.foot {
+	background: #7C7C7C;
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 10px;
+}
+
+.even {
+	background: #E5E5E5;
+	color: Black;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.odd {
+	background: #CECECE;
+	color: black;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+

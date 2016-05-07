@@ -1,0 +1,33 @@
+create procedure usp_Select_AccountTypes_All
+as	
+select AccountTypeID, AccountType, Active from cfg_AccountTypes order by AccountType
+-----------------------------------------------------------------------------------------------------------
+grant exec on usp_Select_AccountTypes_All to webapp
+-----------------------------------------------------------------------------------------------------------
+create procedure usp_Insert_AccountType
+  @str_AccountType varchar(50),
+  @str_Active char(1) = null
+as
+declare @int_CurrentID int
+select @int_CurrentID = AccountTypeID from cfg_AccountTypes where AccountType = @str_AccountType
+if @int_CurrentID > 0 begin
+  update cfg_AccountTypes set
+  AccountType = @str_AccountType, 
+  Active = @str_Active
+  where AccountTypeID = @int_CurrentID
+end else begin
+  insert into cfg_AccountTypes (AccountType, Active)
+  select @str_AccountType, @str_Active
+  select @int_CurrentID = SCOPE_IDENTITY()
+end
+select @int_CurrentID as 'NewID'
+-----------------------------------------------------------------------------------------------------------
+grant exec on usp_Insert_AccountType to webapp
+-----------------------------------------------------------------------------------------------------------
+create procedure usp_Select_AccountType
+  @int_AccountTypeID int
+as	
+select * from cfg_AccountTypes where AccountTypeID = @int_AccountTypeID
+-----------------------------------------------------------------------------------------------------------
+grant exec on usp_Select_AccountType to webapp
+-----------------------------------------------------------------------------------------------------------

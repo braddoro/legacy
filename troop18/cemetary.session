@@ -1,0 +1,9 @@
+<!DOCTYPE webprojectsession>
+<webprojectsession>
+  <session usePreviewPrefix="0" previewPrefix="" >
+    <itemcursorpositions>
+      <item column="23" line="330" url="cemetery_edit.php" />
+      <item column="0" line="10" url="cemetery.php" />
+    </itemcursorpositions>
+  </session>
+</webprojectsession>
